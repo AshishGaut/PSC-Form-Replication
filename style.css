@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(120deg,#181818, #180127);
+  height: 100vh;
+  overflow: hidden;
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px rgba(95, 94, 94, 0.05);
+}
+/* Head Section Starts */
+.column {
+  float: left;
+}
+
+.himg {
+  width: 20%;
+}
+
+.htxt {
+  width: 74%;
+  padding-top: 35px;
+  font-size: 15px;
+}
+.head:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.himg img{
+  width: 100px;
+  height: 94px;
+  padding: 5px;
+  margin: 5px 0 0 4%;
+}
+/* Head Section Ends */
+
+/* Form Section Starts */
+.form{
+  margin-left: 4%;
+  margin-right: 4%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+label{
+  display: block;
+  font-size: 10px;
+  font-weight: 600;
+}
+input{
+  margin: 3px;
+  padding: 5px;
+  border: 1px solid rgb(133, 130, 130);
+  border-radius: 5px;
+}
+.entry{
+  margin-bottom: 20px;
+}
+input[type="date"]{
+  width: 175px;
+}
+input[type="email"]{
+  width: 352px;
+}
+select{
+  width: 175px;
+  padding: 5px;
+  margin-right: 3px;
+}
+.radio{
+  width: 33.333%;
+  padding: 5px;
+}
+span{
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px;
+}
+h1{
+  font-size: 20px;
+  margin: 0 4% 4% 4%;
+  border-bottom: 1px solid rgb(92, 89, 89);
+}
+button{
+  padding: 7px;
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+}
+/* Form Section Ends */
+h3{
+  color: aliceblue;
+  text-align: center;
+  padding-top: 780px;
+}
+a{
+  font-weight: 900;
+  color: aliceblue;
+  text-decoration: none;
+}
+a:hover{
+  color: rgb(204, 27, 27);
+}
